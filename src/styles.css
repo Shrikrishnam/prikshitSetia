@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+.logo {
+    width: 100px;
+    border-radius: 500px;
+    padding: 2%;
+    border: 1px solid black;
+    display: inline-block;
+  }
+  .heading {
+    color: tomato;
+    margin-left: 200px;
+    font-weight: bold;
+  }
+  .navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .link-elements {
+    display: inline;
+  }
+  .anchor {
+    padding: 14px 16px;
+    margin-left: 50px;
+  }
+  .sidebar {
+    display: inline-block;
+    float: left;
+  }
+  .sidebar button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .introtext {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .fitness {
+    display: inline-block;
+    margin-left: 20px;
+    width: 500px;
+  }
+  .contactus {
+    display: inline-block;
+    margin-left: 20px;
+    width: 500px;
+  }
+  .contactbtn {
+    margin-bottom: 10px;
+  }
+  input.ng-invalid.ng-touched {
+    border: 1px solid red;
+  }
+  input.ng-valid.ng-dirty {
+    border: 1px solid green;
+  }
+  

@@ -1,0 +1,50 @@
+<div class="logo">
+  <!-- <img src="favicon.ico" />  -->
+  <h1 class="heading">Fitness Tracker</h1>
+</div>
+<hr />
+<!-- navbar section-->
+<div class="navbar">
+  <ul class="navlist">
+    <li class="link-elements">
+      <button class="anchor btn btn-primary" (click)="landingpage()">
+        Home
+      </button>
+    </li>
+    <li class="link-elements">
+      <button class="anchor btn btn-primary" (click)="placeAppointment()">
+        Place Appointment
+      </button>
+    </li>
+    <li class="link-elements">
+      <button class="anchor btn btn-primary" (click)="viewAppointment()">
+        View Appointment
+      </button>
+    </li>
+    <li class="link-elements">
+      <button class="anchor btn btn-primary">
+        Search
+      </button>
+    </li>
+    <li class="link-elements">
+      <button class="anchor btn btn-primary" (click)="contactUspage()">
+        Contact Us
+      </button>
+    </li>
+  </ul>
+</div>
+<hr />
+<!-- sidebar section -->
+<div class="sidebar">
+  <button (click)="landingpage()" class="btn btn-primary">Home</button><br />
+  <button (click)="placeAppointment()" class="btn btn-primary">
+    Place Appointment</button
+  ><br />
+  <button (click)="viewAppointment()" class="btn btn-primary">
+    View Appointment</button
+  ><br />
+  <button class="btn btn-primary">Search</button><br />
+  <button (click)="contactUspage()" class="btn btn-primary">Contact Us</button>
+</div>
+
+<router-outlet></router-outlet>
